@@ -1,0 +1,12 @@
+.dice1{
+    cursor: pointer;
+}
+p{
+    text-align: center;
+}
+
+@media (max-width:768px){
+ img{
+    min-width: 150px;
+ }
+}

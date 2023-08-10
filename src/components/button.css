@@ -1,0 +1,69 @@
+.btn{
+    /* width: 200px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    flex-direction: column;
+}
+button{
+    margin-bottom: 10px;
+    width: 120px;
+    font-size: 15px;
+    padding: 10px;
+    color: white;
+    /* padding: 10px 20px; */
+    background-color: black;
+    border-radius: 2px;
+    border: none;
+}
+button:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    transition: 0.2s ease-in;
+}
+.rulesContainer{
+background-color: rgb(238, 238, 238);
+padding: 20px;
+max-width: 800px;
+margin: 0 auto;
+border-radius: 5px;
+}
+h3{
+    font-size: 26px;
+
+}
+.text{
+    margin-top: 12px;
+    text-align: start;
+}
+.text p{
+    font-size: 19px;
+    margin: 10px;
+    padding: 0px;
+    text-align: start;
+}
+@media (max-width:768px){
+    .rulesContainer{
+        background-color: rgb(238, 238, 238);
+        padding: 20px;
+        max-width: 500px;
+        margin: 0 auto;
+        border-radius: 5px;
+        }
+        h3{
+            font-size: 22px;
+        
+        }
+        .text{
+            margin-top: 12px;
+            text-align: start;
+        }
+        .text p{
+            font-size: 15px;
+            margin: 10px;
+            padding: 0px;
+            text-align: start;
+        }
+}
